@@ -341,6 +341,7 @@ client.on('message', message => {
         .setFooter('المزيد قريبا ان شاء الله!')
       message.channel.send(helpEmbed);
     }
+client.user.setGame(`STARK`,"http://twitch.tv/S-F")	
 });
 
 client.login(process.env.BOT_TOKEN);
