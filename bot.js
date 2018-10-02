@@ -340,8 +340,7 @@ client.on('message', message => {
         .setFooter('المزيد قريبا ان شاء الله!')
       message.channel.send(helpEmbed);
     }
-
-  }	
+	
 });
 
 client.login(process.env.BOT_TOKEN);
